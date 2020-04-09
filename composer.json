@@ -1,0 +1,19 @@
+{
+    "name": "xzljoec/demo1",
+    "description": "这是描述",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lzsen"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php":">=7.0.0"
+    },
+    "autoload":{
+        "psr-4":{
+            "xzljoec\\demo1\\":"src/xzljoec/demo1/"
+        }
+    }
+}
